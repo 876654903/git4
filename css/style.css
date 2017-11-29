@@ -7,6 +7,60 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-size: .32rem; }
+  font-size: .32rem;
+  position: relative; }
+
+header {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #333; }
+  header i {
+    display: inline-block;
+    width: 15%;
+    text-align: center; }
+  header span {
+    width: 70%; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute; }
+  .mark .box {
+    width: 85%;
+    height: 70%;
+    margin: 20% auto;
+    background: #fff;
+    border-radius: 10px; }
+  .mark .box .logo {
+    text-align: center;
+    padding-top: 1.5rem; }
+    .mark .box .logo img {
+      width: 25%;
+      color: green; }
+    .mark .box .logo p {
+      font-size: .2rem; }
+  .mark .box form {
+    width: 80%;
+    margin: .5rem auto; }
+    .mark .box form p {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: .5rem; }
+      .mark .box form p img {
+        width: 4%; }
+      .mark .box form p input {
+        border: none;
+        padding-left: .2rem; }
+        .mark .box form p input::-webkit-input-placeholder {
+          font-size: .15rem; }
+      .mark .box form p button {
+        width: 100%;
+        background: green;
+        color: #fff;
+        padding: .15rem 0;
+        border-radius: 5px;
+        border: none; }
 
 /*# sourceMappingURL=style.css.map */
